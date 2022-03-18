@@ -10,7 +10,6 @@ import UIKit
 class FirstVC: UIViewController {
     
     
-    
     @IBAction private func showAllCourses() {
         let nextVC = storyboard?.instantiateViewController(withIdentifier: "CoursesVC") as! CoursesVC
         nextVC.titleName = "List of Courses"
@@ -27,7 +26,6 @@ class FirstVC: UIViewController {
         super.viewDidLoad()
 
     
-    }
-    
+    }    
 
 }
