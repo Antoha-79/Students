@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E6EBCD727ABE390003F5CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBCD627ABE390003F5CBC /* AppDelegate.swift */; };
+		5E6EBCD927ABE390003F5CBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBCD827ABE390003F5CBC /* SceneDelegate.swift */; };
+		5E6EBCDE27ABE390003F5CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6EBCDC27ABE390003F5CBC /* Main.storyboard */; };
+		5E6EBCE127ABE390003F5CBC /* Dovnar_Students_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBCDF27ABE390003F5CBC /* Dovnar_Students_CoreData.xcdatamodeld */; };
+		5E6EBCE327ABE392003F5CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6EBCE227ABE392003F5CBC /* Assets.xcassets */; };
+		5E6EBCE627ABE392003F5CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6EBCE427ABE392003F5CBC /* LaunchScreen.storyboard */; };
+		5E6EBCF127ABF18F003F5CBC /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBCED27ABF18F003F5CBC /* Student+CoreDataClass.swift */; };
+		5E6EBCF227ABF18F003F5CBC /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBCEE27ABF18F003F5CBC /* Student+CoreDataProperties.swift */; };
+		5E6EBCF327ABF18F003F5CBC /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBCEF27ABF18F003F5CBC /* Course+CoreDataClass.swift */; };
+		5E6EBCF427ABF18F003F5CBC /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBCF027ABF18F003F5CBC /* Course+CoreDataProperties.swift */; };
+		5E6EBCF927ABF762003F5CBC /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBCF827ABF762003F5CBC /* CoreDataService.swift */; };
+		5E6EBCFC27ABFC5C003F5CBC /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBCFB27ABFC5C003F5CBC /* FirstVC.swift */; };
+		5E6EBCFF27AC0220003F5CBC /* StudentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBCFE27AC0220003F5CBC /* StudentsTableViewCell.swift */; };
+		5E6EBD0127AC03FB003F5CBC /* StudentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBD0027AC03FB003F5CBC /* StudentsVC.swift */; };
+		5E6EBD0327AC040D003F5CBC /* CoursesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBD0227AC040D003F5CBC /* CoursesVC.swift */; };
+		5E6EBD0527AC074A003F5CBC /* AddStudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBD0427AC074A003F5CBC /* AddStudentVC.swift */; };
+		5E6EBD0727AC078B003F5CBC /* AddStudentNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EBD0627AC078B003F5CBC /* AddStudentNC.swift */; };
+		5E70B18327B11D6000F80E73 /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B18227B11D6000F80E73 /* CoursesTableViewCell.swift */; };
+		5E70B18527B1264500F80E73 /* AddCourseNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B18427B1264500F80E73 /* AddCourseNC.swift */; };
+		5E70B18727B1265F00F80E73 /* AddCourseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B18627B1265F00F80E73 /* AddCourseVC.swift */; };
+		5E70B18B27B14E7C00F80E73 /* studOfCourseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B18A27B14E7C00F80E73 /* studOfCourseVC.swift */; };
+		5E70B18F27B2A17100F80E73 /* StudOfCoursTableVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B18E27B2A17100F80E73 /* StudOfCoursTableVCell.swift */; };
+		5E73D87327B44E830090C935 /* AddStudOfCourseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73D87227B44E830090C935 /* AddStudOfCourseVC.swift */; };
+		5E73D87527B44EA40090C935 /* AddStudOfCourseNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E73D87427B44EA40090C935 /* AddStudOfCourseNC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E6EBCD327ABE390003F5CBC /* Dovnar-Students-CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dovnar-Students-CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6EBCD627ABE390003F5CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E6EBCD827ABE390003F5CBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E6EBCDD27ABE390003F5CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E6EBCE027ABE390003F5CBC /* Dovnar_Students_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dovnar_Students_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		5E6EBCE227ABE392003F5CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E6EBCE527ABE392003F5CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E6EBCE727ABE392003F5CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E6EBCED27ABF18F003F5CBC /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Student+CoreDataClass.swift"; path = "Dovnar-Students-CoreData/Model/Student+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5E6EBCEE27ABF18F003F5CBC /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Student+CoreDataProperties.swift"; path = "Dovnar-Students-CoreData/Model/Student+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		5E6EBCEF27ABF18F003F5CBC /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Course+CoreDataClass.swift"; path = "Dovnar-Students-CoreData/Model/Course+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5E6EBCF027ABF18F003F5CBC /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Course+CoreDataProperties.swift"; path = "Dovnar-Students-CoreData/Model/Course+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		5E6EBCF827ABF762003F5CBC /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		5E6EBCFB27ABFC5C003F5CBC /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		5E6EBCFE27AC0220003F5CBC /* StudentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewCell.swift; sourceTree = "<group>"; };
+		5E6EBD0027AC03FB003F5CBC /* StudentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsVC.swift; sourceTree = "<group>"; };
+		5E6EBD0227AC040D003F5CBC /* CoursesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesVC.swift; sourceTree = "<group>"; };
+		5E6EBD0427AC074A003F5CBC /* AddStudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentVC.swift; sourceTree = "<group>"; };
+		5E6EBD0627AC078B003F5CBC /* AddStudentNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentNC.swift; sourceTree = "<group>"; };
+		5E70B18227B11D6000F80E73 /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
+		5E70B18427B1264500F80E73 /* AddCourseNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseNC.swift; sourceTree = "<group>"; };
+		5E70B18627B1265F00F80E73 /* AddCourseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseVC.swift; sourceTree = "<group>"; };
+		5E70B18A27B14E7C00F80E73 /* studOfCourseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studOfCourseVC.swift; sourceTree = "<group>"; };
+		5E70B18E27B2A17100F80E73 /* StudOfCoursTableVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudOfCoursTableVCell.swift; sourceTree = "<group>"; };
+		5E73D87227B44E830090C935 /* AddStudOfCourseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudOfCourseVC.swift; sourceTree = "<group>"; };
+		5E73D87427B44EA40090C935 /* AddStudOfCourseNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudOfCourseNC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E6EBCD027ABE390003F5CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E6EBCCA27ABE390003F5CBC = {
+			isa = PBXGroup;
+			children = (
+				5E6EBCD527ABE390003F5CBC /* Dovnar-Students-CoreData */,
+				5E6EBCD427ABE390003F5CBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E6EBCD427ABE390003F5CBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E6EBCD327ABE390003F5CBC /* Dovnar-Students-CoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E6EBCD527ABE390003F5CBC /* Dovnar-Students-CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5E6EBCF727ABF6DB003F5CBC /* Services */,
+				5E6EBCF627ABF4F5003F5CBC /* App */,
+				5E6EBCF527ABF1A9003F5CBC /* Model */,
+				5E6EBCFA27ABFC0B003F5CBC /* Modules */,
+				5E6EBCE427ABE392003F5CBC /* LaunchScreen.storyboard */,
+				5E6EBCE227ABE392003F5CBC /* Assets.xcassets */,
+				5E6EBCE727ABE392003F5CBC /* Info.plist */,
+				5E6EBCDF27ABE390003F5CBC /* Dovnar_Students_CoreData.xcdatamodeld */,
+			);
+			path = "Dovnar-Students-CoreData";
+			sourceTree = "<group>";
+		};
+		5E6EBCF527ABF1A9003F5CBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E6EBCED27ABF18F003F5CBC /* Student+CoreDataClass.swift */,
+				5E6EBCEE27ABF18F003F5CBC /* Student+CoreDataProperties.swift */,
+				5E6EBCEF27ABF18F003F5CBC /* Course+CoreDataClass.swift */,
+				5E6EBCF027ABF18F003F5CBC /* Course+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E6EBCF627ABF4F5003F5CBC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5E6EBCD627ABE390003F5CBC /* AppDelegate.swift */,
+				5E6EBCD827ABE390003F5CBC /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5E6EBCF727ABF6DB003F5CBC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5E6EBCF827ABF762003F5CBC /* CoreDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5E6EBCFA27ABFC0B003F5CBC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5E6EBCDC27ABE390003F5CBC /* Main.storyboard */,
+				5E6EBCFB27ABFC5C003F5CBC /* FirstVC.swift */,
+				5E73D87027B44C090090C935 /* Courses */,
+				5E73D87127B44C210090C935 /* Students */,
+				5E6EBCFD27AC01EA003F5CBC /* Cells */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5E6EBCFD27AC01EA003F5CBC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5E6EBCFE27AC0220003F5CBC /* StudentsTableViewCell.swift */,
+				5E70B18227B11D6000F80E73 /* CoursesTableViewCell.swift */,
+				5E70B18E27B2A17100F80E73 /* StudOfCoursTableVCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5E73D87027B44C090090C935 /* Courses */ = {
+			isa = PBXGroup;
+			children = (
+				5E6EBD0227AC040D003F5CBC /* CoursesVC.swift */,
+				5E70B18A27B14E7C00F80E73 /* studOfCourseVC.swift */,
+				5E73D87427B44EA40090C935 /* AddStudOfCourseNC.swift */,
+				5E73D87227B44E830090C935 /* AddStudOfCourseVC.swift */,
+				5E70B18427B1264500F80E73 /* AddCourseNC.swift */,
+				5E70B18627B1265F00F80E73 /* AddCourseVC.swift */,
+			);
+			path = Courses;
+			sourceTree = "<group>";
+		};
+		5E73D87127B44C210090C935 /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				5E6EBD0027AC03FB003F5CBC /* StudentsVC.swift */,
+				5E6EBD0627AC078B003F5CBC /* AddStudentNC.swift */,
+				5E6EBD0427AC074A003F5CBC /* AddStudentVC.swift */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E6EBCD227ABE390003F5CBC /* Dovnar-Students-CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6EBCEA27ABE392003F5CBC /* Build configuration list for PBXNativeTarget "Dovnar-Students-CoreData" */;
+			buildPhases = (
+				5E6EBCCF27ABE390003F5CBC /* Sources */,
+				5E6EBCD027ABE390003F5CBC /* Frameworks */,
+				5E6EBCD127ABE390003F5CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dovnar-Students-CoreData";
+			productName = "Dovnar-Students-CoreData";
+			productReference = 5E6EBCD327ABE390003F5CBC /* Dovnar-Students-CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E6EBCCB27ABE390003F5CBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					5E6EBCD227ABE390003F5CBC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 5E6EBCCE27ABE390003F5CBC /* Build configuration list for PBXProject "Dovnar-Students-CoreData" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E6EBCCA27ABE390003F5CBC;
+			productRefGroup = 5E6EBCD427ABE390003F5CBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E6EBCD227ABE390003F5CBC /* Dovnar-Students-CoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E6EBCD127ABE390003F5CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6EBCE627ABE392003F5CBC /* LaunchScreen.storyboard in Resources */,
+				5E6EBCE327ABE392003F5CBC /* Assets.xcassets in Resources */,
+				5E6EBCDE27ABE390003F5CBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E6EBCCF27ABE390003F5CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6EBCF227ABF18F003F5CBC /* Student+CoreDataProperties.swift in Sources */,
+				5E6EBCF327ABF18F003F5CBC /* Course+CoreDataClass.swift in Sources */,
+				5E6EBCD727ABE390003F5CBC /* AppDelegate.swift in Sources */,
+				5E73D87527B44EA40090C935 /* AddStudOfCourseNC.swift in Sources */,
+				5E70B18327B11D6000F80E73 /* CoursesTableViewCell.swift in Sources */,
+				5E6EBD0127AC03FB003F5CBC /* StudentsVC.swift in Sources */,
+				5E6EBCE127ABE390003F5CBC /* Dovnar_Students_CoreData.xcdatamodeld in Sources */,
+				5E6EBCD927ABE390003F5CBC /* SceneDelegate.swift in Sources */,
+				5E70B18727B1265F00F80E73 /* AddCourseVC.swift in Sources */,
+				5E70B18527B1264500F80E73 /* AddCourseNC.swift in Sources */,
+				5E6EBD0527AC074A003F5CBC /* AddStudentVC.swift in Sources */,
+				5E6EBCF427ABF18F003F5CBC /* Course+CoreDataProperties.swift in Sources */,
+				5E6EBCF927ABF762003F5CBC /* CoreDataService.swift in Sources */,
+				5E6EBCFF27AC0220003F5CBC /* StudentsTableViewCell.swift in Sources */,
+				5E6EBD0727AC078B003F5CBC /* AddStudentNC.swift in Sources */,
+				5E73D87327B44E830090C935 /* AddStudOfCourseVC.swift in Sources */,
+				5E6EBCFC27ABFC5C003F5CBC /* FirstVC.swift in Sources */,
+				5E6EBCF127ABF18F003F5CBC /* Student+CoreDataClass.swift in Sources */,
+				5E70B18B27B14E7C00F80E73 /* studOfCourseVC.swift in Sources */,
+				5E6EBD0327AC040D003F5CBC /* CoursesVC.swift in Sources */,
+				5E70B18F27B2A17100F80E73 /* StudOfCoursTableVCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E6EBCDC27ABE390003F5CBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E6EBCDD27ABE390003F5CBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E6EBCE427ABE392003F5CBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E6EBCE527ABE392003F5CBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E6EBCE827ABE392003F5CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E6EBCE927ABE392003F5CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E6EBCEB27ABE392003F5CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KJJC5336V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dovnar-Students-CoreData/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Dovnar-Students-CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E6EBCEC27ABE392003F5CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KJJC5336V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dovnar-Students-CoreData/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Dovnar-Students-CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E6EBCCE27ABE390003F5CBC /* Build configuration list for PBXProject "Dovnar-Students-CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6EBCE827ABE392003F5CBC /* Debug */,
+				5E6EBCE927ABE392003F5CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E6EBCEA27ABE392003F5CBC /* Build configuration list for PBXNativeTarget "Dovnar-Students-CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6EBCEB27ABE392003F5CBC /* Debug */,
+				5E6EBCEC27ABE392003F5CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5E6EBCDF27ABE390003F5CBC /* Dovnar_Students_CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5E6EBCE027ABE390003F5CBC /* Dovnar_Students_CoreData.xcdatamodel */,
+			);
+			currentVersion = 5E6EBCE027ABE390003F5CBC /* Dovnar_Students_CoreData.xcdatamodel */;
+			path = Dovnar_Students_CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5E6EBCCB27ABE390003F5CBC /* Project object */;
+}
